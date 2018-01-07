@@ -13,9 +13,9 @@ module.exports = function(
   $scope.user = {
     firstName: '',
     lastName: '',
-    email: 'example@example.com',
-    password: '123456',
-    passwordConfirmation: '123456'
+    email: '',
+    password: '',
+    passwordConfirmation: ''
   };
 
   $scope.loginError = false;
